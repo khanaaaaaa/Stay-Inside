@@ -100,20 +100,46 @@ screen say(who, what):
     window:
         id "window"
 
-        if who is not None:
+        background Frame(
+            "gui/textbox.png",
+            30, 30
+        )
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+        xalign 0.5
+        yalign 1.0
 
-        text what id "what"
+        xsize 1720
+        ysize 190
 
+        if who:
+            id "who"
 
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+            xpos 25
+            ypos -38
+
+            size 25
+            color "#FFFFFF"
+
+            font "DejaVuSans-Bold.ttf"
+
+            outlines [(2, "#000000", 0, 0)]
+
+    text what:
+        id "what"
+
+        xpos 25
+        ypos 35
+
+        xmaximum 1650
+
+        size 30
+        color "#E5E1D8"
+
+        font "DejaVuSans.ttf"
+
+        line_spacing 5
+
+        outlines [(1, "#000000", 0, 0)]
 
 
 ## Make the namebox available for styling through the Character object.

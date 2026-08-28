@@ -1,33 +1,65 @@
-﻿# The script of the game goes in this file.
+﻿label start:
+    call screen chapter_title("01", "Just Another Day")
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+    scene bg black
+    with fade
 
-define e = Character("Eileen")
+    pause 0.8
 
+    scene bg school_classroom
+    with dissolve
 
-# The game starts here.
+    narrator "The final bell rings."
+    narrator "Immediately, the entire classroom erupts into chaos."
 
-label start:
+    mc "Freedom."
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    maya "You say that like you just escaped prision."
 
-    scene bg room
+    mc "I did."
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    chloe "It's called school."
 
-    show eileen happy
+    mc "Same thing."
 
-    # These display lines of dialogue.
+    ethan "You spent the entire last period asleep."
 
-    e "You've created a new Ren'Py game."
+    mc "And?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    ethan "You missed the homework."
 
-    # This ends the game.
+    mc "That's a tomorrow problem."
 
-    return
+    maya "It's due tomorrow."
+
+    mc "Exactly."
+
+    chloe "That's not how time works."
+
+    mc "Sounds like a tomorrow problem."
+
+    narrator "Chloe stares at me for a moment."
+
+    chloe "I genuinelt don't know how you're still passing."
+
+    mc "Natural talent."
+
+    ethan "Your grades say otherwise."
+
+    mc "You guys are supposed to support me."
+
+    maya "We support your right to fail."
+
+    mc "Thatnk you, Maya."
+
+    narrator "I throw my bag over my shoulder."
+
+    mc "Anyway, I'm going home."
+
+    maya "No, you're not."
+
+    mc "Excuse me?"
+
+    maya "The club room."
+
+    jump chapter_2git
