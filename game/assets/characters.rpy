@@ -3,8 +3,8 @@ define mc = Character(
     color="#E8E4DC"
 )
 
-define maya = Character(
-    "Maya",
+define michael = Character(
+    "michael",
     color="#D98282"
 )
 

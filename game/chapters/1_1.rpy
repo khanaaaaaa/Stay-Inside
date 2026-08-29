@@ -12,27 +12,27 @@ label chapter_1_1:
 
     ethan "That's late for us."
 
-    maya "Speak for yourself."
+    michael "Speak for yourself."
 
     chloe "You're literally scared of the dark."
 
-    maya "I'm not scared of the dark."
+    michael "I'm not scared of the dark."
 
     mc "You screamed when the lights went out yesterday."
 
-    maya "Because Ethan was standing behind me."
+    michael "Because Ethan was standing behind me."
 
     ethan "I said sorry."
 
-    maya "You whispered 'boo' directly into my ear."
+    michael "You whispered 'boo' directly into my ear."
 
     ethan "It was funny."
 
-    maya "You whispered 'boo' directly into my ear."
+    michael "You whispered 'boo' directly into my ear."
 
     ethan "It was funny."
 
-    maya "You nearly died."
+    michael "You nearly died."
 
     ethan "Worth it."
 

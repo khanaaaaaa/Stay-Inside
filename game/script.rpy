@@ -13,65 +13,78 @@
     narrator "Immediately, the entire classroom erupts into chaos."
 
     mc "Freedom."
-
-    maya "You say that like you just escaped prision."
-
+    show michaelsmiletalk at center_char
+    michael "You say that like you just escaped prision."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_chae
     mc "I did."
-
+    hide michaelsmilequiet
+    show chloesmiletalk at left_char
     chloe "It's called school."
-
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "Same thing."
-
+    hide chloesmilequiet
+    show ethanlaughtalk at center_char
     ethan "You spent the entire last period asleep."
-
+    hide ethanlaughtalk
+    show ethansmilequiet at center_char
     mc "And?"
-
+    hide ethansmilequiet
+    show ethansmiletalk at center_char
     ethan "You missed the homework."
-
+    hide ethansmiletalk
+    show ethamsmilequiet at center_char
     mc "That's a tomorrow problem."
-
-    maya "It's due tomorrow."
-
+    hide ethansmilequiet
+    show michaelsmiletalk at center_char
+    michael "It's due tomorrow."
+    hide michaelsmiletalk
+    show michaelneutralquiet at center_char
     mc "Exactly."
-
+    hide michaelneutralquiet
+    show chloesmiletalk at center_char
     chloe "That's not how time works."
-
-    mc "Sounds like a tomorrow problem."
-
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
+    mc "Sounds like a tomorrow problem."git
     narrator "Chloe stares at me for a moment."
-
+    hide chloesmilequiet
+    show chloesmiletalk at center_chae
     chloe "I genuinely don't know how you're still passing."
-
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "Natural talent."
-
+    hide chloesmilequiet
     show ethanlaughtalk at center_char
     ethan "Your grades say otherwise."
     hide ethanlaughtalk 
     show ethannetralquiet at center_char
-
     mc "You guys are supposed to support me."
-
-    maya "We support your right to fail."
-
-    mc "Thatnk you, Maya."
-
+    hide ethanneutralquiet
+    show michaelsmiletalk at center_char
+    michael "We support your right to fail."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
+    mc "Thank you, Michael."
     narrator "I throw my bag over my shoulder."
-
-    mc "Anyway, I'm going home."
-
-    maya "No, you're not."
-
+    mc "Anyways, I'm going home."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
+    michael "No, you're not."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     mc "Excuse me?"
 
-    maya "The club room."
+    michael "The club room."
 
     mc "What about it?"
 
-    maya "We still have to clean it."
+    michael "We still have to clean it."
 
     mc "Who is we?"
 
-    maya "Us."
+    michael "Us."
 
     mc "I don't remember agreeing to that."
 
@@ -87,19 +100,19 @@
 
     mc "I was eating."
 
-    maya "That's your defense?"
+    michael "That's your defense?"
 
     mc "It's a very strong defense."
 
-    narrator "Maya sighs and grabs my bag before I can leave."
+    narrator "michael sighs and grabs my bag before I can leave."
 
     mc "Hey!"
 
-    maya "Come on."
+    michael "Come on."
 
     mc "You're kidnapping me."
 
-    maya "I'm saving you from becoming unemployed at sixteen."
+    michael "I'm saving you from becoming unemployed at sixteen."
 
     mc "I'm already unemployed."
 
@@ -109,7 +122,7 @@
         "Complain the entire way.":
             mc "I want it officialy documented that I am forced to work."
 
-            maya "Noted."
+            michael "Noted."
 
             mc "And that I strongly oppose this."
 
@@ -128,7 +141,7 @@
         "Accept my fate":
             mc "Fine, I'll clean."
 
-            maya "Wow."
+            michael "Wow."
 
             chloe "That was surprisingly easy."
 
@@ -136,12 +149,12 @@
 
             mc "Don't get used to it."
 
-            maya "Too late."
+            michael "Too late."
 
         "Try to escape":
             narrator "I suddenly stop walking."
 
-            maya "Why did you stop?"
+            michael "Why did you stop?"
 
             mc "I just remembered something."
 
@@ -149,20 +162,20 @@
 
             mc "I have to go."
 
-            maya "Where?"
+            michael "Where?"
 
             mc "Away."
 
             narrator "I turn around."
-            narrator "Maya grabs the back of my uniform."
+            narrator "michael grabs the back of my uniform."
 
             mc "Let me go."
 
-            maya "No."
+            michael "No."
 
             mc "This is a violation of my human rights."
 
-            maya "Keep walking."
+            michael "Keep walking."
 
             mc "Tyranny."
     jump chapter_1_1
