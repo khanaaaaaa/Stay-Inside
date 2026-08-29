@@ -1,5 +1,5 @@
 define mc = Character(
-    "[player_name]",
+    "You",
     color="#E8E4DC"
 )
 

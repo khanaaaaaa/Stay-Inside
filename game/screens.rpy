@@ -100,46 +100,16 @@ screen say(who, what):
     window:
         id "window"
 
-        background Frame(
-            "gui/textbox.png",
-            30, 30
-        )
+        if who is not None:
+            window:
+                id "name"
+                style "namebox"
 
-        xalign 0.5
-        yalign 1.0
+                text who:
+                    style "who"
 
-        xsize 1720
-        ysize 190
-
-        if who:
-            id "who"
-
-            xpos 25
-            ypos -38
-
-            size 25
-            color "#FFFFFF"
-
-            font "DejaVuSans-Bold.ttf"
-
-            outlines [(2, "#000000", 0, 0)]
-
-    text what:
-        id "what"
-
-        xpos 25
-        ypos 35
-
-        xmaximum 1650
-
-        size 30
-        color "#E5E1D8"
-
-        font "DejaVuSans.ttf"
-
-        line_spacing 5
-
-        outlines [(1, "#000000", 0, 0)]
+        text what:
+            id "what"
 
 
 ## Make the namebox available for styling through the Character object.

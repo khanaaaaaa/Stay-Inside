@@ -1,0 +1,11 @@
+# ethan
+image ethanintear = "images/ethan/ethanintear.png"
+image ethanangrytalk = "images/ethan/ethanangrytalk.png"
+image ethancrying = "images/ethan/ethancrying.png"
+image ethandisturbed = "images/ethan/ethandisturbed.png"
+image ethanlaughtalk = "images/ethan/ethanlaughtalk.png"
+image ethanneutralquiet = "images/ethan/ethaneutralquiet.png"
+image ethanquietsmile = "images/ethan/ethansmilequiet.png"
+image ethansadquiet = "images/ethan/ethansadquiet.png"
+image ethansadtalk = "images/ethan/ethansadtalk.png"
+image ethansweating = "images/ethan/ethansweating.png"

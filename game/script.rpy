@@ -4,7 +4,7 @@
     scene bg black
     with fade
 
-    pause 0.8
+    pause 0.5
 
     scene bg school_classroom
     with dissolve
@@ -40,11 +40,14 @@
 
     narrator "Chloe stares at me for a moment."
 
-    chloe "I genuinelt don't know how you're still passing."
+    chloe "I genuinely don't know how you're still passing."
 
     mc "Natural talent."
 
+    show ethanlaughtalk at center_char
     ethan "Your grades say otherwise."
+    hide ethanlaughtalk 
+    show ethannetralquiet at center_char
 
     mc "You guys are supposed to support me."
 
