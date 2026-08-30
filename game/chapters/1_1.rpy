@@ -5,46 +5,110 @@ label chapter_1_1:
 
     narrator "The school is already starting to get empty."
     narrator "Most of the classroon are dark."
+    show chloesmiletalk at center_char
     chloe "It's weird being here this late."
     mc "It's five thirty."
+    hide chloesmiletalk
+    show ethansmiletalk at center_char 
     ethan "That's late for us."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "Speak for yourself."
+    hide michaelsmiletalk
+    show chloesmiletalk at center_char 
     chloe "You're literally scared of the dark."
+    hide chloesmiletalk
+    show michaelsmiletalk at center_char
     michael "I'm not scared of the dark."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     mc "You screamed when the lights went out yesterday."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     michael "Because Ethan was standing behind me."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "I said sorry."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "You whispered 'boo' directly into my ear."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "It was funny."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "You nearly died."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "Worth it."
+    hide ethansmiletalk
+    show ethansmilequiet at center_char
     mc "This is why none of you are allowed to make decisions."
+    hide ethansmilequiet
+    show chloesmiletalk at center_char
     chloe "You're one to talk."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     narrator "All three of them stare at me."
     mc "..What?"
+    hide chloesmilequiet
+    show michaelsmiletalk at center_char
     michael "Nothing."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "Absolutely nothing."
+    hide ethansmiletalk
+    show chloesmiletalk at center_char
     chloe "Keep telling yourself that."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     menu:
         "As what they're staring at.":
             mc "Okay, seriously. What?"
+            hide chloesmilequiet
+            show chloesmiletalk at center_char
             chloe "Nothing."
+            hide chloesmiletalk
+            show chloesmilequiet at center_char
             mc "You all said that."
+            hide chloesmilequiet
+            show michaelsmiletalk at center_char
             michael "Because it's nothing."
+            hide michaelsmiletalk
+            show ethansmiletalk at center_char
             ethan "You're being paranoid."
+            hide ethansmiletalk
+            show ethansmilequiet at center_char
             mc "I'm surrounded by suspicious people."
+            hide ethansmilequiet
         "Ignore them.":
             mc "Whatever."
             narrator "I adjust my bag and keep walking."
+            hide chloesmilequiet
+            show ethansmiletalk at center_char
             ethan "See? They know we're right."
+            hide ethansmiletalk
+            show ethansmilequiet at center_char
             mc "I can still hear you."
+            hide ethansmilequiet
         "Accues Ethan.":
             mc "Ethan."
+            hide chloesmilequiet
+            show ethansmiletalk at center_char
             ethan "What?"
+            hide ethansmiletalk
+            show ethansmilequiet at center_char
             mc "What did you do?"
+            hide ethansmilequiet
+            show ethansmiletalk at center_char
             ethan "Nothing."
+            hide ethansmiletalk
+            show ethansmilequiet at center_char
             mc "That's exactly what someone who did something would say."
+            hide ethansmilequiet
+            show ethansmiletalk at center_char
             ethan "I hate how predictable you are."
+            hide ethansmiletalk
     scene bg clubroom
     with dissolve
     narrator "We finally reach the club room."
