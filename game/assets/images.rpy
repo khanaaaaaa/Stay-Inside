@@ -23,3 +23,8 @@ image michaelneutralquiet = "images/ethan/michael/michaelneutralquiet.png"
 image michaelsmilequiet = "images/ethan/michael/michaelsmilequiet.png"
 image michaelsmiletalk = "images/ethan/michael/michaelsmiletalk.png"
 image michaelupsettalk = "images.ethan/michael/michaelupsettalk.png"
+
+image bg classroom = "assets/backgrounds/classroom.jpg"
+image bg dark_hallway = "assets/backgrounds/dark_hallway.avif"
+image bg light_hallway = "assets/backgrounds/light_hallway.jpg"
+image bg locked_door = "assets/backgrounds/locked_door.avif"

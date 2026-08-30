@@ -1,6 +1,6 @@
 label chapter_1_1:
     
-    scene bg school_hallway
+    scene bg light_hallway
     with dissolve
 
     narrator "The school is already starting to get empty."
@@ -128,5 +128,21 @@ label chapter_1_1:
     narrator "Chloe shrugs."
     chloe "Yeah, probably."
     narrator "We turn off the lights."
+    
+    scene bg light_hallway
+    with dissolve
+    narrator "The hallway is completely empty."
+    narrator "We start walking toward the entrance."
+    narrator "Behind us-"
+    narrator "..."
+    narrator "A classroom door slowly creaks open."
+    narrator "Nobody notices."
+
+    scene bg black
+    with fade
+
+    narrator "Somewhere inside the school.."
+    narrator "A desk scraps across the floor."
+    pause 0.5
 
     jump chapter_2
