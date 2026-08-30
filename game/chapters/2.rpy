@@ -97,4 +97,4 @@ label chapter_2:
     ehtan "Maya?"
     narrator "Maya goes completely still."
 
-    jump chapter_3
+    jump chapter_2_1
