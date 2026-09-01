@@ -61,7 +61,7 @@ label chapter_3:
             fake_michael "We went home."
             michael "Wrong."
             ethan "We went to the diner."
-            fake_michael "..."gi
+            fake_michael "..."
             mc "Michael knows."
     narrator "The copy's smile disappears."
     fake_micael "That's okay."
