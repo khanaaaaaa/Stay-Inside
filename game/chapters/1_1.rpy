@@ -113,84 +113,190 @@ label chapter_1_1:
     with dissolve
     narrator "We finally reach the club room."
     narrator "The door creaks open."
+    show michaelsmilequiet at center_char
     mc "Okay."
     mc "We clean for ten minutes."
-    mc "Then we leavr."
+    mc "Then we leave."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     michael "Twenty."
+    hide michaelsmiletalk
+    show micaelsmilequiet at center_char
     mc "Ten."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     michael "Fifteen."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     mc "Twelve."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     michael "Deal."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "Why are you negotitating like this is a hostage situation?"
+    hide ethansmiletalk
+    show ethansmilequiet at center_char
     mc "Because it is."
     narrator "Chloe picks up a stack of papers."
+    hide ethansmilequiet
+    show chloesmiletalk at center_char
     chloe "Who left all these everywhere?"
+    hide chloesmiletalk
+    show ethansmiletalk at center_char
     ethan "Probably you."
+    hide ethansmiletalk
+    show chloesmiletalk at center_char
     chloe "Why would I do that?"
+    hide chloesmiletalk
+    show ethansmiletalk at center_char
     ethan "I don't know."
+    hide ethansmiletalk
+    show chloesmiletalk at center_char
     chloe "Great arguement."
+    hide chloesmiletalk at center_char
     ethan "Thank you."
+    hide chloesmiletalk 
+    show michaelsmilequiet at center_char
     narrator "Maya opens a cabinet."
-    maya "Why are there thirty-seven glue sticks in here?"
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
+    michael "Why are there thirty-seven glue sticks in here?"
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     mc "Energency supplies."
-    maya "For what emergency?"
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
+    michael "For what emergency?"
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     mc "Glue emergency."
+    hide michaelsmilequiet
+    show chloesmiletalk at center_char
     chloe "That's not a thing."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "Not with that attitude."
     narrator "Ethan picks up a tiny plastic skeleton from one of the shelves."
+    hide chloesmilequiet
+    show ethansmiletalk at center_char
     ethan "Guys."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "What?"
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "I found our club mascot."
+    hide ethansmiletalk
+    show chloesmiletalk at center_char
     chloe "Put that down."
+    hide chloesmiletalk
+    show ethansmiletalk at center_char
     ethan "Why?"
+    hide ethansmiletalk
+    show chloesmiletalk at center_char
     chloe "It looks cursed."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "It's a plastic skeleton."
+    hide chloesmilequiet
+    show chloesmiletalk at center_char
     chloe "Exactly."
+    hide chloesmiletalk
+    show ethansmiletalk at center_char
     ethan "I'm calling him Gregory."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "We're not naming the skeleton."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "Gregory."
+    hide ethansmiletalk
+    show ethansmilequiet at center_char
     mc "He looks like a Greg."
-    maya "Don't encourage him."
+    hide ethansmilequiet
+    show michaelneutraltalk at center_char
+    michael "Don't encourage him."
+    hide michaelneutraltalk
+    show michaelneutralquiet at center_char
     narrator "Ethan places the skeleton on the desk."
+    hide michaelneutralquiet
+    show ethansmiletalk at center_char
     ethan "Gregory is staying."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "Fine."
+    hide michaelsmiletalk
+    show chloesmiletalk at center_char
     chloe "I'm leaving."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "You can't."
+    hide chloesmilequiet
+    show chloesmiletalk at center_char
     chloe "Watch me."
+    hide chloesmiletalk
     narrator "She walks toward the door."
+    scene bg locked_door at bg_fit
     narrator "The door suddenly swings shut."
     chloe "..."
     ethan "..."
     maya "..."
     mc "..."
     narrator "A beat of silence."
+    scene bg light_hallway at bg_fit
+    show ethanneutraltalk at center_char
     ethan "Okay."
     ethan "That was dramatic."
-    chloe "Someone pushed it."
+    hide ethanneutraltalk
+    show chloesmiletalk at center_char
+    chloe "Someone pushed it for sure."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     mc "Probably."
+    hide chloesmilequiet
+    show michaelsmiletalk at center_char
     michael "Probably?"
+    hide michaelsmiletalk
+    show michaelneutralquiet at center_char
     mc "It's an old door."
     narrator "Chloe opens it again."
     narrator "Nothing happens."
+    hide michaealneutral
+    show chloesmiletalk at center_char
     chloe "See?"
-    ethan "Ghost."
-    chloe "Shut up."
-    ethan "Gregory did it."
-    michael "I hate all of you."
-    mc "You love us."
-    michael "Unfortunately."
+    hide chloesmiletalk
+    show chloesmilequiet at center_char
     narrator "We finish cleaning."
     narrator "By the time we're done, the sky outside has turned dark."
+    hide chloesmilequiet
+    show michaelsmiletalk at center_char
     michael "Okay, everyone grab your stuff."
+    hide michaelsmiletalk
+    show ethansmiletalk at center_char
     ethan "Finally."
+    hide ethansmiletalk
+    show chloeneutraltalk at center_char
     chloe "Wait."
+    hide chloeneutraltalk
+    show chloeneutralquiet at center_char
     narrator "Chloe looks toward the hallway."
+    hide chloeneutralquiet
+    show chloeneutraltalk at center_char
     chloe "You hear that?"
+    hide chloeneutraltalk
+    show chloeneutralquiet at center_char
     narrator "Silence."
+    hide chloeneutralquiet
+    show ethansmiletalk at center_char
     ethan "I didn't hear anything."
+    hide ethansmiletalk
+    show michaelsmiletalk at center_char
     michael "Probably just the pipes."
-    narrator "Chloe shrugs."
+    hide michaelsmiletalk
+    show chloesmiletalk at center_char
     chloe "Yeah, probably."
+    hide chloesmiletalk
     narrator "We turn off the lights."
     
     scene bg light_hallway
