@@ -21,8 +21,7 @@ label chapter_2_1:
     michael "At this hour?"
     hide michaelneutraltalk
 
-    scene black at bg_fit
-    with fade
+    scene black
 
     narrator "The figure steps closer."
     narrator "Its face is hidden by the darkness."
@@ -43,10 +42,6 @@ label chapter_2_1:
     narrator "Nobody says anything."
     unknown "Let me in."
     narrator "The lights flicker."
-
-    scene black
-
-    pause 0.3
 
     scene bg school_entrance at bg_fit
 

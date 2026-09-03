@@ -1,7 +1,7 @@
 label chapter_4:
     call screen chapter_title("04", "Don't Answer")
 
-    scene bg clubroom
+    scene bg clubroom at bg_fit
 
     narrator "We barricade ourselves inside the club room."
     show chloeneutraltalk at center_char

@@ -37,8 +37,6 @@ label ending_good:
     narrator "The lights turn back on."
     narrator "The front doors unlock."
 
-    scene bg school_entrance at bg_fit
-
     narrator "We run outside."
     narrator "The sun is beginning to rise."
     ethan "It's over."
