@@ -1,7 +1,6 @@
 label chapter_1_1:
     
     scene bg light_hallway at bg_fit
-    with dissolve
 
     narrator "The school is already starting to get empty."
     narrator "Most of the classroon are dark."
@@ -109,8 +108,9 @@ label chapter_1_1:
             show ethansmiletalk at center_char
             ethan "I hate how predictable you are."
             hide ethansmiletalk
+    scene black
+    pause 0.5
     scene bg clubroom at bg_fit
-    with dissolve
     narrator "We finally reach the club room."
     narrator "The door creaks open."
     show michaelsmilequiet at center_char
@@ -237,7 +237,7 @@ label chapter_1_1:
     chloe "Watch me."
     hide chloesmiletalk
     narrator "She walks toward the door."
-    scene bg locked_door at bg_fit
+    scene black at bg_fit
     narrator "The door suddenly swings shut."
     chloe "..."
     ethan "..."
@@ -300,7 +300,6 @@ label chapter_1_1:
     narrator "We turn off the lights."
     
     scene bg light_hallway at bg_fit
-    with dissolve
     narrator "The hallway is completely empty."
     narrator "We start walking toward the entrance."
     narrator "Behind us-"
@@ -309,7 +308,6 @@ label chapter_1_1:
     narrator "Nobody notices."
 
     scene black
-    with fade
 
     narrator "Somewhere inside the school.."
     narrator "A desk scraps across the floor."

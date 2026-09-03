@@ -8,7 +8,6 @@ label chapter_2:
     pause 1.0
 
     scene bg dark_hallway at bg_fit
-    with dissolve
     show ethansmilequiet at center_char
     narrator "The hallway is darker than it was five minutes ago."
     narrator "Most of the lights have already been turned off."
@@ -41,7 +40,7 @@ label chapter_2:
     narrator "Michael grabs the handle."
     hide chloeneutralquiet
 
-    scene bg locked_door at bg_fit
+    scene black at bg_fit
     michael "Locked."
     mc "..."
     ethan "..."
@@ -55,7 +54,6 @@ label chapter_2:
     michael "Let's go."
 
     scene bg dark_hallway at bg_fit
-    with dissolve
 
     narrator "We walk down the hallway."
     narrator "Our footsteps echo through the empty school."
@@ -132,7 +130,6 @@ label chapter_2:
     hide ethanneutralquiet
 
     scene bg school_entrance at bg_fit
-    with dissolve
 
     narrator "KNOCK."
     narrator "KNOCK."
@@ -142,7 +139,7 @@ label chapter_2:
     narrator "A boy."
     show michaelneutralquiet at center_char
     chloe "Is that.."
-    ehtan "Michael?"
+    ethan "Michael?"
     narrator "Michael goes completely still."
 
     jump chapter_2_1

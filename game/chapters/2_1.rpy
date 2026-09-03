@@ -1,4 +1,8 @@
 label chapter_2_1:
+
+    scene bg dark_hallway at bg_fit
+    with fade
+
     narrator "Michael goes completely still."
     michael "That's not me."
     mc "Nobody said it was."
@@ -16,7 +20,10 @@ label chapter_2_1:
     show michaelneutraltalk
     michael "At this hour?"
     hide michaelneutraltalk
-    scene bg locked_door at bg_fit
+
+    scene black at bg_fit
+    with fade
+
     narrator "The figure steps closer."
     narrator "Its face is hidden by the darkness."
     narrator "KNOCK."
@@ -66,6 +73,6 @@ label chapter_2_1:
     narrator "\"I'm already inside.\""
     narrator "KNOCK."
     narrator "This time, the knocking comes from behind us."
-    scene black at bg_fit
+    scene black
     pause 1.0
     jump chapter_4

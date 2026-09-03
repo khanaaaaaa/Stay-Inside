@@ -1,6 +1,5 @@
 label ending_bad:
-    scene bg school_entrance at bg_fit
-    with fade
+    scene bg clubroom at bg_fit
 
     narrator "I open the door."
     narrator "Cold air rushes inside."
@@ -39,7 +38,6 @@ label ending_good:
     narrator "The front doors unlock."
 
     scene bg school_entrance at bg_fit
-    with dissolve
 
     narrator "We run outside."
     narrator "The sun is beginning to rise."
@@ -100,7 +98,7 @@ label ending_true:
     hide michaelneutraltalk
     scene black
     with fade
-    narator "The ligts go out."
+    narrator "The ligts go out."
     fake_michael "You were one of us."
     fake_michael "Remember?"
     return
