@@ -6,12 +6,20 @@ label ending_bad:
     narrator "Cold air rushes inside."
     narrator "Nobody is there."
     mc "..."
+    show ethanneutraltalk at center_char
     ethan "Is it gone?"
+    hide ethanneutraltalk
+    show michaelneutralquiet at center_char
     narrator "Michael looks at me."
+    hide michaelneutralquiet
+    show michaelneutraltalk at center_char
     michael "You shouldn't have opened it."
     mc "Why?"
     narrator "He smiles."
+    hide michaelneutraltalk
+    show michaelsmiletalk at center_char
     michael "Because now it can come in."
+    hide michaelsmiletalk
     
     scene bg black
     with fade
@@ -58,23 +66,41 @@ label ending_true:
 
     narrator "I turn around."
     narrator "Michael is standing behind us"
+    show michaelneutralquiet at center_char
     mc "Michael?"
     narrator "He looks terrified."
+    hide michaelneutralquiet
+    show chloeneutraltalk at center_char
     chloe "What's wrong?"
-    michael "That's not him."
+    hide chloeneutraltalk
+    show michaelneutraltalk at center_char
+    michael "That's not her."
+    hide michaelneutraltalk
+    show michaelneutralquiet at center_char
     mc "Not who?"
     narrator "Michael points at me."
-    michael "That's not him."
+    hide michaelneutralquiet
+    show michaelneutraltalk at center_char
+    michael "That's not her."
+    hide michaelneutraltalk
+    show michaelneutralquiet at center_char
     mc "Not who?"
     narrator "Michael points at me."
+    hide michaelneutralquiet
+    show ethanneutraltalk at center_char
     ethan "What are you talking about?"
+    hide ethansneutraltalk
+    show michaelneutralquiet at center_char
     narrator "I look at them."
     narrator "They're all staring at me."
     mc "What's wrong with me?"
+    hide michaelneutralquiet
+    show michaelneutraltalk at center_char
     michael "You really don't remember?"
+    hide michaelneutraltalk
     scene black
     with fade
     narator "The ligts go out."
     unknown "You were one of us."
-    unknown "Remember?g"
+    unknown "Remember?"
     return

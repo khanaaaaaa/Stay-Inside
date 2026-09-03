@@ -4,32 +4,41 @@ label chapter_4:
     scene bg clubroom
 
     narrator "We barricade ourselves inside the club room."
+    show chloeneutraltalk at center_char
     chloe "What do we do now?"
+    hide chloeneutraltalk
+    show ethanneutraltalk at center_char
     ethan "Wait for morning."
+    hide ethanneutraltalk 
+    show ethanneutralquiet at center_char
     mc "What if it doesn't leave?"
+    hide ethanneutralquiet
+    show michaelneutraltalk at center_char
     michael "Then we don't open the door."
     narrator "KNOCK."
     narrator "Everyone freezes."
-    unknown "Chloe?"
+    hide michaelneutraltalk
+    scene bg black
+    fake_michael "Chloe?"
     chloe "..."
-    unknown "It's me."
+    fake_michael "It's me."
     chloe "No."
-    unknown "You know me."
+    fake_michael "You know me."
     chloe "No, I don't."
-    unknown "You deleted the message."
+    fake_michael "You deleted the message."
     mc "Don't answer it."
-    unknown "Ethan?"
+    fake_michael "Ethan?"
     ethan "..."
-    unknown "You still owe me twenty dollars."
+    fake_michael "You still owe me twenty dollars."
     ethan "..."
     chloe "How does it know that?"
     michael "It knows everything."
-    unknown "[player_name]?"
+    fake_michael "[player_name]?"
     narrator "The voice changes."
     narrator "It because my voice."
-    unknown "Open the door."
+    fake_michael "Open the door."
     mc "No."
-    unknown "You miss me."
+    fake_michael "You miss me."
     mc "I don't even know you."
     narrator "Silence."
     narrator "Then the door handle begins to turn."
@@ -37,11 +46,22 @@ label chapter_4:
     narrator "We all push against the door."
     narrator "The handle stops."
     narrator "Silence."
+    scene bg dark_hallway
+    show michaelneutraltalk at center_char
     michael "We need another way out."
+    hide michaelneutraltalk
+    show michaelneutralquiet at center_char
     narrator "Michael points toward a window."
+    hide michaelneutralquiet
+    show michaelneutraltalk at center_char
     michael "That."
+    hide michaelneutraltalk
+    show chloeneutraltalk at center_char
     chloe "It's too high."
+    hide chloeneutraltalk
+    show michaelneutraltalk at center_char
     michael "Better than staying here."
+    hide michaelneutraltalk
     menu:
         "Climb through the window":
             $ window_choice = True
@@ -51,16 +71,18 @@ label chapter_4:
             $ window_choice = False
             mc "No."
             mc "We stay together."
+            show michaelneutraltalk at center_char
             michael "Okay."
+            hide michaelneutraltalk
             narrator "Nobody argues."
     narrator "A loud bang comes from the door."
     narrator "BANG"
     narrator "The door shakes."
     narrator "BANG"
     narrator "Something whispers from the other side."
-    unknown "There are four of you."
+    fake_michael "There are four of you."
     narrator "Another voice whispers."
-    unknown "There should be five."
+    fake_michael "There should be five."
 
     scene bg black
 

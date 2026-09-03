@@ -5,14 +5,22 @@ label chapter_2_1:
     michael "I know."
     narrator "The figure behind the glass slowly raises its hand."
     narrator "It waves at us."
+    hide michaelneutralquiet
+    show chloeneutraltalk at center_char
     chloe "Okay..."
     chloe "That's creepy."
+    hide chloeneutraltalk
+    show ethanneutraltalk at center_char
     ethan "Maybe it's just another student?"
+    hide ethanneutraltalk
+    show michaelneutraltalk
     michael "At this hour?"
+    hide michaelneutraltalk
+    scene bg locked_door
     narrator "The figure steps closer."
     narrator "Its face is hidden by the darkness."
-    KNOCK.
-    KNOCK.
+    narrator "KNOCK."
+    narrator "KNOCK."
     michael "Don't open it."
     mc "I wasn't planning to."
     narrator "The figure suddenly speaks."
@@ -37,17 +45,27 @@ label chapter_2_1:
     scene bg school_entrance
 
     narrator "The figure is gone."
+    show chloeneutraltalk at center_char
     chloe "Where did it go?"
+    hide chloeneutraltalk
+    show ethanneutraltalk at center_char
     ethan "I don't know."
+    hide ethanneutraltalk
+    show michaelneutraltalk at center_char
     michael "Don't touch the door."
+    hide michaelneutralktalk
+    show michaeldisturbed at center_char
     narrator "A phone suddenly vibrates."
     michael "..."
     mc "What?"
-    maya "I got a message."
+    hide michaeldistuebed
+    show michaelneutraltalk at center_char
+    michael "I got a message."
+    hide michaelneutraltalk
     narrator "She shows us the screen."
     narrator "Unknown Number."
     narrator "\"I'm already inside.\""
-    KNOCK.
+    narrator "KNOCK."
     narrator "This time, the knocking comes from behind us."
     scene bg black
     pause 1.0

@@ -18,47 +18,69 @@ label chapter_3:
     ethan "Is it gone?"
     unknown "Michael?"
     narrator "Michael closes his eyes."
+    show michaelneutraltalk at center_char
     michael "No."
+    hide michaelneutraltalk
+    show michaelneutralquiet at center_char
     unknowm "You cried in the bathroom after your first exam."
     michael "..."
     chloe "Michael?"
+    hide michaelneutralquiet
+    show michaelneutraltalk at center_char
     michael "Nobody knows that."
+    hide michaelneutraltalk
+    show michaeldisturbed at center_char
     unknown "I do."
     narrator "The voice laughs."
     narrator "It sounds exactly like Michael."
     mc "We need to move."
-    maichael "Wait!"
-    michael "What if it's actually me?"
-    ethan "You're standing right here."
-    michael "I know."
-    ethan "Then no."
+    hide michaeldisturbed
     narrator "We continue walking."
     narrator "A classroom door opens."
     narrator "Inside..."
     narrator "Michael is standing there."
+    show michaelsmilequiet at center_char
     chloe "..."
     ethan "..."
     mc "..."
     michael "That's not me."
     narrator "The other Michael smiles."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     fake_michael "Guys?"
     fake_michael "Why are you leaving me?"
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     michael "Don't listen to it."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     fake_michael "Michael."
     fake_michael "You know I'm real."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     narrator "The fake Michael takes one step forward."
+    hide michaelsmilequiet
+    show michaelsmiletalk at center_char
     fake_michael "Ask me something."
+    hide michaelsmiletalk
+    show michaelsmilequiet at center_char
     menu:
         "Trust the Michael beside you":
             $ trust_michael = True 
             mc "Stay with us."
             michael "Thank you."
+            hide michaelsmilequiet
+            show michaelsmiletalk at center_char
             fake_michael "Wrong choice."
         "Ask the copy a question":
             $ trust_michael = False
             mc "Okay."
             mc "What did we do after school yesterday?"
+            hide michaelsmilequiet
+            show michaelsmiletalk at center_char
             fake_michael "We went home."
+            hide michaelsmiletalk
+            show michaelsmilequiet at center_char
             michael "Wrong."
             ethan "We went to the diner."
             fake_michael "..."
