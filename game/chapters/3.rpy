@@ -1,7 +1,7 @@
 label chapter_3:
     call screen chapter_title("03", "That's not Michael")
 
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     with fade
 
     narrator "We run back toward the club room."
@@ -86,7 +86,7 @@ label chapter_3:
             fake_michael "..."
             mc "Michael knows."
     narrator "The copy's smile disappears."
-    fake_micael "That's okay."
+    fake_michael "That's okay."
     fake_michael "We'll have more time."
-    scene bg black
+    scene black
     jump chapter_4

@@ -1,6 +1,6 @@
 label chapter_1_1:
     
-    scene bg light_hallway
+    scene bg light_hallway at bg_fit
     with dissolve
 
     narrator "The school is already starting to get empty."
@@ -109,7 +109,7 @@ label chapter_1_1:
             show ethansmiletalk at center_char
             ethan "I hate how predictable you are."
             hide ethansmiletalk
-    scene bg clubroom
+    scene bg clubroom at bg_fit
     with dissolve
     narrator "We finally reach the club room."
     narrator "The door creaks open."
@@ -121,7 +121,7 @@ label chapter_1_1:
     show michaelsmiletalk at center_char
     michael "Twenty."
     hide michaelsmiletalk
-    show micaelsmilequiet at center_char
+    show michaelsmilequiet at center_char
     mc "Ten."
     hide michaelsmilequiet
     show michaelsmiletalk at center_char
@@ -158,7 +158,7 @@ label chapter_1_1:
     ethan "Thank you."
     hide chloesmiletalk 
     show michaelsmilequiet at center_char
-    narrator "Maya opens a cabinet."
+    narrator "Michael opens a cabinet."
     hide michaelsmilequiet
     show michaelsmiletalk at center_char
     michael "Why are there thirty-seven glue sticks in here?"
@@ -241,7 +241,7 @@ label chapter_1_1:
     narrator "The door suddenly swings shut."
     chloe "..."
     ethan "..."
-    maya "..."
+    michael "..."
     mc "..."
     narrator "A beat of silence."
     scene bg light_hallway at bg_fit
@@ -299,7 +299,7 @@ label chapter_1_1:
     hide chloesmiletalk
     narrator "We turn off the lights."
     
-    scene bg light_hallway
+    scene bg light_hallway at bg_fit
     with dissolve
     narrator "The hallway is completely empty."
     narrator "We start walking toward the entrance."
@@ -308,7 +308,7 @@ label chapter_1_1:
     narrator "A classroom door slowly creaks open."
     narrator "Nobody notices."
 
-    scene bg black
+    scene black
     with fade
 
     narrator "Somewhere inside the school.."

@@ -1,8 +1,13 @@
 ﻿label start:
     call screen chapter_title("01", "Just Another Day")
 
-    scene bg black
+    scene black
     with fade
+
+    $player_name = renpy.input("What should I call you?", default="").strip()
+
+    if player_name == "":
+        $ player_name = "You"
 
     pause 0.5
 
@@ -34,7 +39,7 @@
     show ethansmiletalk at center_char
     ethan "You missed the homework."
     hide ethansmiletalk
-    show ethamsmilequiet at center_char
+    show ethansmilequiet at center_char
     mc "That's a tomorrow problem."
     hide ethansmilequiet
     show michaelsmiletalk at center_char
@@ -59,7 +64,7 @@
     show ethanlaughtalk at center_char
     ethan "Your grades say otherwise."
     hide ethanlaughtalk 
-    show ethannetralquiet at center_char
+    show ethanneutralquiet at center_char
     mc "You guys are supposed to support me."
     hide ethanneutralquiet
     show michaelsmiletalk at center_char
@@ -79,7 +84,7 @@
     show michaelsmiletalk at center_char
     michael "The club room."
     hide michaelsmiletalk
-    show micahelsmilequiet at center_char
+    show michaelsmilequiet at center_char
     mc "What about it?"
     hide michaelsmilequiet
     show michaelsmiletalk at center_char
@@ -125,21 +130,21 @@
     hide michaelsmiletalk
     show michaelsmilequiet at center_char
     mc "You're kidnapping me."
-    hide micahelsmilequiet
+    hide michaelsmilequiet
     show michaelsmiletalk at center_char
     michael "I'm saving you from becoming unemployed at sixteen."
     hide michaelsmiletalk
     show michaelsmilequiet at center_char
     mc "I'm already unemployed."
     narrator "We make our way into the hallway."
-    scene bg light_hallway
+    scene bg light_hallway at bg_fit
     menu:
         "Complain the entire way.":
             mc "I want it officialy documented that I am forced to work."
-            hide micahelsmilequiet
+            hide michaelsmilequiet
             show michaelsmiletalk at center_char
             michael "Noted."
-            hide micahelsmiletalk
+            hide michaelsmiletalk
             show michaelsmilequiet at center_char
             mc "And that I strongly oppose this."
             hide michaelsmilequiet
@@ -184,7 +189,7 @@
         "Try to escape":
             narrator "I suddenly stop walking."
             hide michaelsmilequiet
-            show micaelsmiletalk at center_char
+            show michaelsmiletalk at center_char
             michael "Why did you stop?"
             hide michaelsmiletalk
             show michaelsmilequiet at center_char

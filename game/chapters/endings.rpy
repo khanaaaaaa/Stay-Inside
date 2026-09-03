@@ -1,5 +1,5 @@
 label ending_bad:
-    scene bg school_entrance
+    scene bg school_entrance at bg_fit
     with fade
 
     narrator "I open the door."
@@ -21,13 +21,13 @@ label ending_bad:
     michael "Because now it can come in."
     hide michaelsmiletalk
     
-    scene bg black
+    scene black
     with fade
-    unknown "Thank you."
+    fake_michael "Thank you."
     return
 
 label ending_good:
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     with fade
 
     mc "We're not leaving anyone."
@@ -38,7 +38,7 @@ label ending_good:
     narrator "The lights turn back on."
     narrator "The front doors unlock."
 
-    scene bg school_entrance
+    scene bg school_entrance at bg_fit
     with dissolve
 
     narrator "We run outside."
@@ -61,7 +61,7 @@ label ending_good:
     return
 
 label ending_true:
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     with fade
 
     narrator "I turn around."
@@ -101,6 +101,6 @@ label ending_true:
     scene black
     with fade
     narator "The ligts go out."
-    unknown "You were one of us."
-    unknown "Remember?"
+    fake_michael "You were one of us."
+    fake_michael "Remember?"
     return

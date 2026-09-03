@@ -16,7 +16,7 @@ label chapter_2_1:
     show michaelneutraltalk
     michael "At this hour?"
     hide michaelneutraltalk
-    scene bg locked_door
+    scene bg locked_door at bg_fit
     narrator "The figure steps closer."
     narrator "Its face is hidden by the darkness."
     narrator "KNOCK."
@@ -37,12 +37,11 @@ label chapter_2_1:
     unknown "Let me in."
     narrator "The lights flicker."
 
-    scene bg black
-    with flash
+    scene black
 
     pause 0.3
 
-    scene bg school_entrance
+    scene bg school_entrance at bg_fit
 
     narrator "The figure is gone."
     show chloeneutraltalk at center_char
@@ -67,6 +66,6 @@ label chapter_2_1:
     narrator "\"I'm already inside.\""
     narrator "KNOCK."
     narrator "This time, the knocking comes from behind us."
-    scene bg black
+    scene black at bg_fit
     pause 1.0
     jump chapter_4

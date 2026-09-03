@@ -2,7 +2,7 @@
 label chapter_5:
     call screen chapter_title("05", "???")
 
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
 
     narrator "We run toward the entrance."
     narrator "The school is completely silent."
@@ -21,9 +21,9 @@ label chapter_5:
     chloe "Go!"
     narrator "We reach the doors."
     narrator "Before anyone can open them..."
-    unknown "Michael."
+    fake_michael "Michael."
     michael "..."
-    unknown "Don't leave me."
+    fake_michael "Don't leave me."
     mc "Michael?"
     michael "Keep going."
     ethan "We're not leaving you."

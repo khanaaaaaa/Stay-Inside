@@ -1,10 +1,12 @@
 define mc = Character(
-    "You",
+    "[player_name]",
     color="#E8E4DC"
 )
 
+default player_name = "You"
+
 define michael = Character(
-    "michael",
+    "Michael",
     color="#D98282"
 )
 
@@ -22,3 +24,6 @@ define narrator = Character(
     None,
     what_color="#D8D5CC"
 )
+
+define fake_michael = Character("Michael?")
+define unknown = Character("????")

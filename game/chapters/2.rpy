@@ -2,12 +2,12 @@ label chapter_2:
 
     call screen chapter_title("02", "Don't Let Her In")
 
-    scene bg black
+    scene black
     with fade
 
     pause 1.0
 
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     with dissolve
     show ethansmilequiet at center_char
     narrator "The hallway is darker than it was five minutes ago."
@@ -38,10 +38,10 @@ label chapter_2:
     show chloeneutralquiet at center_char
     mc "Exactly."
     narrator "We reach the front entrance."
-    narrator "Maya grabs the handle."
+    narrator "Michael grabs the handle."
     hide chloeneutralquiet
 
-    scene bg locked_door
+    scene bg locked_door at bg_fit
     michael "Locked."
     mc "..."
     ethan "..."
@@ -54,7 +54,7 @@ label chapter_2:
     chloe "There's the side entrance."
     michael "Let's go."
 
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     with dissolve
 
     narrator "We walk down the hallway."
@@ -71,7 +71,7 @@ label chapter_2:
     ethan "I'm just saying."
     hide ethansmiletalk
     narrator "We reach the side entrance."
-    narrator "Maya tries the handle."
+    narrator "Michael tries the handle."
     narrator "Locked."
     show michaelsmiletalk at center_char
     michael "You've got to be kidding me."
@@ -131,7 +131,7 @@ label chapter_2:
     mc "That's not reassuring."
     hide ethanneutralquiet
 
-    scene bg school_entrance
+    scene bg school_entrance at bg_fit
     with dissolve
 
     narrator "KNOCK."

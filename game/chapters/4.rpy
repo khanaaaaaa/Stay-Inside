@@ -18,7 +18,7 @@ label chapter_4:
     narrator "KNOCK."
     narrator "Everyone freezes."
     hide michaelneutraltalk
-    scene bg black
+    scene black at bg_fit
     fake_michael "Chloe?"
     chloe "..."
     fake_michael "It's me."
@@ -46,7 +46,7 @@ label chapter_4:
     narrator "We all push against the door."
     narrator "The handle stops."
     narrator "Silence."
-    scene bg dark_hallway
+    scene bg dark_hallway at bg_fit
     show michaelneutraltalk at center_char
     michael "We need another way out."
     hide michaelneutraltalk
@@ -84,6 +84,6 @@ label chapter_4:
     narrator "Another voice whispers."
     fake_michael "There should be five."
 
-    scene bg black
+    scene black
 
     jump chapter_5
